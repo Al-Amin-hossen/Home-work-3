@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Html Form</title>
+        <link rel="stylesheet" href="../css/form.css">
+    </head>
+    <body>
+        <!-- Menu Start -->
+        <div class="menu">
+            <a href="../index.html" class="home">Home</a>
+            <a href="form.html" class="form">Sign Up</a>
+            <a href="table.html" class="table">Table</a>
+        </div>
+        <!-- Menu End -->
+        <div class="wrapper">
+            <h1>Sign up</h1>
+            <h4>It's quick and easy</h4>
+            <hr>
+            <form action="#" method="post">
+                <div class="name_wrap">
+                    <div>
+                        <label for="first_name" class="first_name">First Name :</label><br>
+                        <input type="text" placeholder="First Name" id="first_name" name="first_name" class="first_name">
+                    </div>
+
+                    <div>
+                        <label for="last_name"  class="last_name">Last Name :</label><br>
+                        <input type="text" class="last_name" id="last_name" name="last_name" placeholder="Last Name">
+                    </div>
+                </div>
+
+                <label for="email" class="email">Email :</label>
+                <input type="email" class="email" id="email" placeholder="Email Address" name="email"><br>
+
+                <label for="phone" class="phone"> Phone Number :</label>
+                <input type="number" placeholder="Phone Number" name="phone" class="phone" id="phone"> <br>
+
+                <label for="pass" class="pass">Password :</label>
+                <input type="password" placeholder="Password" name="pass" class="pass" id="pass"><br>
+
+                <label for="dob" class="dob">Date of Birth :</label>
+                <input type="date" name="dob" class="dob" id="dob"><br>
+
+                <label for="" class="gander">Gander :</label>
+                <input type="radio" name="gander" class="female" id="female" value="female">
+                <label for="female" class="female">Female</label>
+                <input type="radio" name="gander" class="male" id="male" value="male">
+                <label for="male" class="male">Male</label>
+                <input type="radio" name="gander" class="other" id="other" value="other">
+                <label for="other" class="other">Other</label>
+                <br>
+
+                <label for="color" class="color">Your Favourite color :</label>
+                <select name="color" id="color">
+                    <option value="">Select</option>
+                    <option class="red" value="red">Red</option>
+                    <option class="green" value="green">Green</option>
+                    <option class="blue" value="blue">Blue</option>
+                </select>     <br>
+                
+                <input type="checkbox" name="privacy" id="privacy">
+                <label for="privacy">Accept privacy policy</label><br>
+                
+                <input type="submit" value="Sign UP" class="button">
+
+            </form>
+        </div>
+    </body>
+</html>
